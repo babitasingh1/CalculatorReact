@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Signup from './Signup';
 import reportWebVitals from './reportWebVitals';
+import Register from './Register';
+import Table from './table'
+import EmployeeTracker from './Employee/EmployeeTracker';
+import Calculator from './Calculator/Calculator'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Calculator />
   </React.StrictMode>,
   document.getElementById('root')
 );

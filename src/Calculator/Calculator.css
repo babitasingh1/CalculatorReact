@@ -1,0 +1,38 @@
+.wrapper {
+  margin: 10px;
+  padding: 5px;
+  height: 400px;
+  width: 350px;
+  border: 1px red solid;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.calcScreen {
+  height: 40px;
+  width: 320px;
+  margin: 5px;
+  border: 1px blue solid;
+  border-radius: 8px;
+}
+
+.calcButtonWrapper {
+  height: 300px;
+  width: 320px;
+  margin: 5px;
+  border: 1px aquamarine solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  border-radius: 8px;
+}
+
+.buttonStyle {
+  flex: 1 0 21%;
+  height: 30px;
+  width: 40px;
+  margin: 5px;
+  border: 1px black solid;
+  text-align: center;
+  border-radius: 8px;
+}
